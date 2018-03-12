@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Sample DSL">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/out/artifacts/sample_dsl_jar/sample-dsl.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

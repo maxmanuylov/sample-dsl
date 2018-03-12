@@ -1,0 +1,10 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Run Script" type="JarApplication" factoryName="JAR Application" singleton="true">
+    <option name="JAR_PATH" value="$APPLICATION_PLUGINS_DIR$/Kotlin/kotlinc/lib/kotlin-compiler.jar" />
+    <option name="PROGRAM_PARAMETERS" value="-cp $PROJECT_DIR$/out/artifacts/sample_dsl_jar/sample-dsl.jar -script-templates com.example.AgentConfig -script $PROJECT_DIR$/test/src/config.kts" />
+    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    <option name="ALTERNATIVE_JRE_PATH" />
+    <module name="test" />
+    <method />
+  </configuration>
+</component>

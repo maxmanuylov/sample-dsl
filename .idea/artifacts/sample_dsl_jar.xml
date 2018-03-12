@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="sample-dsl:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/sample_dsl_jar</output-path>
+    <root id="archive" name="sample-dsl.jar">
+      <element id="module-output" name="sample-dsl" />
+    </root>
+  </artifact>
+</component>

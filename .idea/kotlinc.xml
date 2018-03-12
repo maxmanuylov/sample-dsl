@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Kotlin2JvmCompilerArguments">
+    <option name="jvmTarget" value="1.8" />
+  </component>
+  <component name="KotlinCommonCompilerArguments">
+    <option name="apiVersion" value="1.2" />
+    <option name="languageVersion" value="1.2" />
+  </component>
+  <component name="KotlinCompilerSettings">
+    <option name="scriptTemplates" value="com.example.AgentConfig" />
+    <option name="scriptTemplatesClasspath" value="$PROJECT_DIR$/out/artifacts/sample_dsl_jar/sample-dsl.jar" />
+  </component>
+</project>
