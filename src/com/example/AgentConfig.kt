@@ -18,17 +18,17 @@ open class AgentConfig {
         println()
 
         printParams("Configuration Parameters", agent.configParams)
-        printParams("System Parameters", agent.systemParams)
-        printParams("Environment Parameters", agent.envParams)
+        printParams("System Parameters", agent.systemParams, "system.")
+        printParams("Environment Parameters", agent.envParams, "env.")
     }
 
-    private fun printParams(title: String, params: Map<String, String>) {
+    private fun printParams(title: String, params: Map<String, String>, prefix: String = "") {
         if (params.isNotEmpty()) {
             println("## $title")
             println()
 
             for (param in params) {
-                println("${param.key}=${param.value}")
+                println("$prefix${param.key}=${param.value}")
             }
 
             println()
